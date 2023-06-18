@@ -1,0 +1,8 @@
+name = input("Enter a name containing varibles: ")
+length = len(name)
+x = 0
+while x < length:
+    if name[x].isdecimal():
+        break;
+    print(name[x], end = ' ')
+    x = x + 1
